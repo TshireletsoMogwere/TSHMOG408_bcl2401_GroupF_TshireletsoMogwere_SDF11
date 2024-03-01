@@ -21,4 +21,3 @@ Code Optimization: Positioning and margin sizes.
 **Overall Learning Experience**
 It was fun creating a colorful landing page. The learning was worth it as it enhanced my skills of problem solving, attention to details and being creative.
 
-tshireletso m
