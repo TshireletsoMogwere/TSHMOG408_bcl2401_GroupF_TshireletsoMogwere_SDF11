@@ -19,7 +19,7 @@
 
 <!--COMPONENT 1-->
   <!-- Container for the header and navigation bar, with a white background -->
-     <div class="mx-auto bg-white">
+     <div class="mx-auto bg-grey-200">
 
        <!-- Header section with navigation links -->
         <div class="relative flex flex-wrap items-center justify-between w-full bg-white py-7 shrink-0">
@@ -102,6 +102,7 @@
    </script>
 
     <!-- COMPONENT 2 -->
+    <!--Hero and Endorsments-->
 
     <!--It utilizes CSS Grid layout with one column by default (grid-cols-1). It spans the entire width of its container (w-full). my-auto centers the div vertically within its container. mt-12 and mb-8 add margin space to the top and bottom of the div respectively. For medium screens and above (md breakpoint), it switches to a two-column grid layout (md:grid-cols-2). It sets specific gap sizes between grid items for extra-large screens (xl:gap-14) and medium screens (md:gap-5).-->
     <div class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5">
@@ -140,10 +141,6 @@
      </div>
     </div>
 
-
-    <!-- Wide full-width container for additional content -->
-    <!--element spans the full width of its parent container.-->
-      <div class="w-full">  
 
         <!--Here, a container is defined with flexbox properties. It's vertically aligned (flex-col) and horizontally centered (items-center). There's a gap of 8 units between its child elements. It's horizontally centered within its parent container (mx-auto), and it has top and bottom margins of 40 units (my-40).-->
       <div class="container flex flex-col items-center gap-8 mx-auto my-40">
@@ -478,11 +475,19 @@
             </div>
           </div>
 
-
+    <!-- Importing CountUp.js library for animated numerical counters -->
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/countup.min.js"></script>
+    
+    <!-- Importing additional script possibly related to counting functionality -->
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/countto.js"></script>
+   
+   <!-- Importing Leaflet.js library for interactive maps -->
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/plugins/leaflet.js"></script>
+    
+    <!-- Importing custom script related to maps -->
     <script src="https://cdn.jsdelivr.net/gh/Loopple/loopple-public-assets@main/motion-tailwind/scripts/maps.js"></script>
+    
+    <!-- Importing custom JavaScript code specific to your project -->
     <script src="./assets/js/loopple/loopple.js"></script>
 
 </body>
