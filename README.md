@@ -1,4 +1,7 @@
-Overview
+Loom Link: [https://www.loom.com/share/697465176c63421fad8501b94ff00779?sid=96015372-94f8-417c-b8ad-357cefdad07c]
+Presentation Slides: [https://docs.google.com/presentation/d/1AFL7pSbltaPraOrQxb7vSsXblCzh7a0ovdI7bAkuIU8/edit?usp=sharing]
+
+# Overview
 I recreated a Cache Banking Landing page that is responsive.
 
 # Reflections
